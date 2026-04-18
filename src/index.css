@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-primary: #7a1c38;
+    --brand-gold: #d4a017;
+    --brand-cream: #fdfaf5;
+    scroll-behavior: smooth;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fdfaf5;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3,h4 { font-family: 'Playfair Display', serif; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-maroon-800 text-ivory px-6 py-3 font-body font-medium tracking-wide
+           hover:bg-maroon-900 transition-all duration-200 rounded-sm inline-flex items-center gap-2;
+  }
+  .btn-outline {
+    @apply border border-maroon-800 text-maroon-800 px-6 py-3 font-body font-medium
+           hover:bg-maroon-800 hover:text-ivory transition-all duration-200 rounded-sm inline-flex items-center gap-2;
+  }
+  .btn-gold {
+    @apply bg-gold-500 text-white px-6 py-3 font-body font-medium tracking-wide
+           hover:bg-gold-600 transition-all duration-200 rounded-sm inline-flex items-center gap-2;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+  .section-title {
+    @apply font-display text-3xl md:text-4xl text-maroon-900 text-center;
+  }
+  .tag {
+    @apply text-xs font-body font-medium uppercase tracking-widest px-3 py-1 rounded-full;
+  }
+}
+
+/* Marquee strip */
+.marquee-wrapper { overflow: hidden; white-space: nowrap; }
+.marquee-inner { display: inline-flex; animation: marquee 30s linear infinite; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f9f3e8; }
+::-webkit-scrollbar-thumb { background: #8f1c3c; border-radius: 3px; }
+
+/* Image zoom on card */
+.product-img-wrap { overflow: hidden; }
+.product-img-wrap img { transition: transform 0.5s ease; }
+.product-img-wrap:hover img { transform: scale(1.07); }
+
+/* Decorative divider */
+.divider-gold {
+  display: flex; align-items: center; gap: 12px;
+}
+.divider-gold::before,.divider-gold::after {
+  content:''; flex:1; height:1px; background: linear-gradient(to right,transparent,#d4a017,transparent);
+}
