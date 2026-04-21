@@ -194,9 +194,9 @@ function BestSellers() {
 // ── Promo Banners ─────────────────────────────────────────────────
 function PromoBanners() {
   const promos = [
-    { title: 'Save Upto 15%', sub: 'On Kurti Sets', tag: 'Offer!', link: '/shop?category=Kurti+Sets', img: 'https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=400&q=80', grad: 'from-rose-900 to-maroon-900' },
+    { title: 'Save Upto 15%', sub: 'On Kurti Sets', tag: 'Offer!', link: '/shop?category=Kurti+Sets', img: 'https://tse3.mm.bing.net/th/id/OIP.tX-50sEjVLcbrKMNlTFScwAAAA?pid=ImgDet&w=199&h=298&c=7&dpr=1.4&o=7&rm=3', grad: 'from-rose-900 to-maroon-900' },
     { title: 'Save Upto 25%', sub: 'On Lehenga Choli', tag: 'Deals!', link: '/shop?category=Lehengas', img: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=400&q=80', grad: 'from-maroon-900 to-stone-900' },
-    { title: '10% – 30% OFF', sub: 'Festive Sale!', tag: 'Sale!', link: '/shop?tag=sale', img: 'https://images.unsplash.com/photo-1610189844804-4ba5f75540f5?w=400&q=80', grad: 'from-amber-900 to-stone-900' },
+    { title: '10% – 30% OFF', sub: 'Festive Sale!', tag: 'Sale!', link: '/shop?tag=sale', img: 'https://img.freepik.com/premium-vector/diwali-festival-sale-offer-discount-banner-design-template_649214-947.jpg', grad: 'from-amber-900 to-stone-900' },
   ];
   return (
     <Section className="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
