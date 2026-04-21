@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <Link to="/" className="inline-block mb-4">
-            <span className="font-display text-2xl text-ivory">Radhika Garment</span>
+            <span className="font-display text-2xl text-ivory">RADHA RANI FASHION</span>
           </Link>
           <p className="font-body text-sm text-stone-400 leading-relaxed mb-5">
             Premium women's ethnic fashion rooted in tradition, crafted for the modern woman. Celebrating India's rich textile heritage since 2015.
@@ -98,7 +98,7 @@ export default function Footer() {
             </li>
             <li className="flex gap-3">
               <Mail size={16} className="text-gold-500 flex-shrink-0" />
-              <a href="mailto:care@radhikagarment.in" className="font-body text-sm text-stone-400 hover:text-gold-400">care@radhikagarment.in</a>
+              <a href="mailto:" className="font-body text-sm text-stone-400 hover:text-gold-400">Radharanifashion567@gmail.com</a>
             </li>
           </ul>
           <button onClick={() => window.open('https://wa.me/919876543210', '_blank')}
@@ -112,7 +112,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-maroon-900 py-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="font-body text-xs text-stone-500">© {year} Radhika Garment. All rights reserved.</p>
+          <p className="font-body text-xs text-stone-500">© {year} RADHA RANI FASHION. All rights reserved.</p>
           <p className="font-body text-xs text-stone-500 flex items-center gap-1">Made with <Heart size={11} className="text-maroon-500 fill-maroon-500" /> in India</p>
         </div>
       </div>

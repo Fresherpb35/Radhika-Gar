@@ -8,7 +8,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const body = `Name: ${form.name}\nPhone: ${form.phone}\nSubject: ${form.subject}\n\nMessage:\n${form.message}`;
-    window.open(`mailto:care@radhikagarment.in?subject=${encodeURIComponent(form.subject + ' — ' + form.name)}&body=${encodeURIComponent(body)}`, '_blank');
+    window.open(`mailto:Radharanifashion567@gmail.com?subject=${encodeURIComponent(form.subject + ' — ' + form.name)}&body=${encodeURIComponent(body)}`, '_blank');
     toast.success('Opening your email client…');
   };
 
@@ -32,7 +32,7 @@ export default function Contact() {
           <div className="space-y-4">
             {[
               { icon: Phone, title: 'WhatsApp / Call', info: '+91 98765 43210', link: 'tel:+919876543210' },
-              { icon: Mail, title: 'Email', info: 'care@radhikagarment.in', link: 'mailto:care@radhikagarment.in' },
+              { icon: Mail, title: 'Email', info: 'Radharanifashion567@gmail.com', link: 'mailto:Radharanifashion567@gmail.com' },
               { icon: MapPin, title: 'Store Address', info: 'Shop No. 5, Textile Market, Ring Road, Surat, Gujarat – 395003' },
               { icon: Clock, title: 'Store Hours', info: 'Mon–Sat: 10 AM – 8 PM · Sun: 11 AM – 6 PM' },
             ].map(({ icon: Icon, title, info, link }) => (

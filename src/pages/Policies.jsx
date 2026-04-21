@@ -34,11 +34,11 @@ We use industry-standard SSL encryption to protect your information during trans
 
 Cookies are used to improve your browsing experience. You may disable cookies in your browser settings, though this may affect site functionality.
 
-You may request deletion of your account data by contacting us at care@radhikagarment.in.`,
+You may request deletion of your account data by contacting us at Radharanifashion567@gmail.com.`,
   },
   {
     id: 'terms', title: '📋 Terms of Service',
-    content: `By accessing and using Radhika Garment, you agree to be bound by these Terms of Service.
+    content: `By accessing and using RADHA RANI FASHION, you agree to be bound by these Terms of Service.
 
 All products are subject to availability. Prices may change without prior notice. Images are for representation purposes only; actual product colours may vary slightly due to photography and display settings.
 
@@ -96,7 +96,7 @@ export default function Policies() {
       <div className="bg-maroon-900 text-ivory py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="font-display text-3xl md:text-4xl">Our Policies</h1>
-          <p className="font-body text-stone-300 text-sm mt-1">Transparency is at the heart of Radhika Garment</p>
+          <p className="font-body text-stone-300 text-sm mt-1">Transparency is at the heart of RADHA RANI FASHION</p>
         </div>
       </div>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-4">

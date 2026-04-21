@@ -29,7 +29,7 @@ const WASvg = () => (
 // ── Hero Slider ──────────────────────────────────────────────────
 const heroSlides = [
   {
-    bg: 'https://images.unsplash.com/photo-1610189844804-4ba5f75540f5?w=1400&q=85',
+    bg: 'https://tse2.mm.bing.net/th/id/OIP.3SV8zgocdFHudk6Qs1QuUAHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3',
     tag: 'New Collection 2025',
     title: 'Draped in\nTradition',
     subtitle: 'Exquisite Banarasi & Silk Sarees — handpicked for the modern woman',

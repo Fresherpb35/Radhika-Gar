@@ -100,7 +100,7 @@ export default function Cart() {
                   </button>
                   <button onClick={() => {
                     const body = cart.map(i => `• ${i.name} — ${i.selectedColor}, ${i.selectedSize} x${i.quantity} = ₹${(i.price * i.quantity)}`).join('\n');
-                    window.open(`mailto:care@radhikagarment.in?subject=Cart Inquiry&body=${encodeURIComponent('Hi,\n\nI would like to inquire about:\n' + body + `\n\nTotal: ₹${total}`)}`, '_blank');
+                    window.open(`mailto:?subject=Cart Inquiry&body=${encodeURIComponent('Hi,\n\nI would like to inquire about:\n' + body + `\n\nTotal: ₹${total}`)}`, '_blank');
                   }} className="w-full btn-outline justify-center">
                     Send Inquiry via Email
                   </button>

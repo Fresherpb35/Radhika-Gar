@@ -36,7 +36,7 @@ export default function ProductDetail() {
   };
 
   const handleInquiry = () => {
-    window.open(`mailto:care@radhikagarment.in?subject=Inquiry: ${product.name}&body=Hi, I'm interested in ${product.name} (₹${product.price}). Color: ${product.colors[selectedColor]}, Size: ${product.sizes[selectedSize]}, Qty: ${qty}.`, '_blank');
+    window.open(`mailto:Radharanifashion567@gmail.com?subject=Inquiry: ${product.name}&body=Hi, I'm interested in ${product.name} (₹${product.price}). Color: ${product.colors[selectedColor]}, Size: ${product.sizes[selectedSize]}, Qty: ${qty}.`, '_blank');
   };
 
   return (

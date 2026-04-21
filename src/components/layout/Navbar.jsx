@@ -58,8 +58,8 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
               <div className="flex flex-col leading-none">
-                <span className="font-display text-2xl md:text-3xl text-maroon-900 tracking-tight">Radhika</span>
-                <span className="font-accent text-xs tracking-[0.3em] text-gold-600 uppercase -mt-1">Garment</span>
+                <span className="font-display text-2xl md:text-3xl text-maroon-900 tracking-tight">RADHA RANI</span>
+                <span className="font-accent text-xs tracking-[0.3em] text-gold-600 uppercase -mt-1">FASHION</span>
               </div>
             </Link>
 
@@ -158,7 +158,7 @@ export default function Navbar() {
             <div className="absolute inset-0 bg-black/50" onClick={() => setMobileMenuOpen(false)} />
             <div className="relative w-72 h-full bg-ivory overflow-y-auto">
               <div className="p-6 border-b border-stone-200">
-                <span className="font-display text-2xl text-maroon-900">Radhika Garment</span>
+                <span className="font-display text-2xl text-maroon-900">RADHA RANI FASHION</span>
               </div>
               <nav className="p-4 space-y-1">
                 {navLinks.map(link => (

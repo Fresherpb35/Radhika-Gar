@@ -8,7 +8,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    toast.success(isLogin ? 'Welcome back!' : 'Account created! Welcome to Radhika Garment.');
+    toast.success(isLogin ? 'Welcome back!' : 'Account created! Welcome to RADHA RANI FASHION.');
   };
 
   return (
@@ -17,7 +17,7 @@ export default function Login() {
         {/* Brand */}
         <div className="text-center mb-8">
           <Link to="/" className="inline-block">
-            <span className="font-display text-3xl text-maroon-900">Radhika Garment</span>
+            <span className="font-display text-3xl text-maroon-900">RADHA RANI FASHION</span>
           </Link>
           <div className="divider-gold w-32 mx-auto mt-2" />
           <p className="font-body text-stone-500 text-sm mt-3">

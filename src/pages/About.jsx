@@ -15,7 +15,7 @@ export default function About() {
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p className="font-accent text-gold-300 italic text-xl mb-2">Our Story</p>
-            <h1 className="font-display text-4xl md:text-5xl text-ivory">About Radhika Garment</h1>
+            <h1 className="font-display text-4xl md:text-5xl text-ivory">About RADHA RANI FASHION</h1>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function About() {
             <p className="font-accent text-gold-600 italic text-lg mb-3">Est. 2015, Surat</p>
             <h2 className="font-display text-3xl text-maroon-900 mb-4">Celebrating India's Textile Heritage</h2>
             <p className="font-body text-stone-600 leading-relaxed mb-4">
-              Founded in 2015 in the heart of Surat, Gujarat — India's textile capital — Radhika Garment was born out of a deep love for traditional Indian craftsmanship and a mission to make premium ethnic wear accessible to every woman.
+              Founded in 2015 in the heart of Surat, Gujarat — India's textile capital — RADHA RANI FASHION was born out of a deep love for traditional Indian craftsmanship and a mission to make premium ethnic wear accessible to every woman.
             </p>
             <p className="font-body text-stone-600 leading-relaxed mb-6">
               We work directly with master weavers, embroiderers, and artisans across Rajasthan, Varanasi, Gujarat, and Bengal to bring you authentic, handcrafted pieces that tell a story with every thread.
@@ -61,7 +61,7 @@ export default function About() {
               { icon: Award, title: 'Authenticity', desc: 'Every piece is handpicked and quality-verified. We never compromise on craftsmanship.' },
               { icon: Leaf, title: 'Sustainability', desc: 'We champion eco-friendly dyeing and fair trade practices that preserve our artisan communities.' },
               { icon: Heart, title: 'Inclusivity', desc: 'From petite to plus size, every woman deserves to feel like royalty in our garments.' },
-              { icon: Users, title: 'Community', desc: 'Radhika Garment is a celebration of Indian womanhood — past, present, and future.' },
+              { icon: Users, title: 'Community', desc: 'RADHA RANI FASHION is a celebration of Indian womanhood — past, present, and future.' },
             ].map(({ icon: Icon, title, desc }) => (
               <motion.div key={title} variants={fadeUp} className="bg-cream rounded-sm p-6 border border-stone-200 text-center">
                 <div className="w-12 h-12 rounded-full bg-maroon-100 flex items-center justify-center mx-auto mb-4">
